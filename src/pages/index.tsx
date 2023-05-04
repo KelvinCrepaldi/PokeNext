@@ -23,10 +23,10 @@ export async function getStaticProps() {
 export default function Home({ pokemons }: any) {
   return (
     <>
-      <div className="flex w-100 justify-center m-10 items-center">
+      <div className="flex w-100 justify-center m-10 items-center ">
         <h1 className="font-bold text-5xl mr-5">
           <span className="text-red-500 ">Poke</span>
-          <span className="text-zinc-900">Next</span>
+          <span className="text-zinc-900 dark:text-white">Next</span>
         </h1>
         <Image
           src={pokeballImage}

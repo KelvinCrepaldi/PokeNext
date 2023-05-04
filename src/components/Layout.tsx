@@ -10,7 +10,7 @@ export default function Layout({ children }: any) {
         <title>PokeNext</title>
       </Head>
       <Navbar />
-      <main className="min-h-screen">{children}</main>
+      <main className="min-h-screen ">{children}</main>
       <Footer />
     </>
   );

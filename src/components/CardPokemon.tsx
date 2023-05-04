@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function CardPokemon({ pokemon }: any) {
   return (
     <li
-      className="bg-zinc-600 w-44 m-2 p-4 rounded-xl border-solid
+      className="bg-zinc-600 dark:bg-zinc-800 w-44 m-1 p-3 rounded-lg border-solid
     border-2 border-black flex flex-wrap flex-col items-center
   shadow-md shadow-black"
     >

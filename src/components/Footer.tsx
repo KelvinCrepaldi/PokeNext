@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function Footer() {
   return (
-    <footer className="bg-zinc-900 h-40 p-3">
+    <footer className="bg-zinc-900 h-40 p-3 text-white mt-10">
       <p className="text-xl text-center">
         Kelvin Crepaldi -{" "}
         <Link
